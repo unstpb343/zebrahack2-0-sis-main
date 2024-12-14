@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Launch the students - HOME PAGE</title>
+	<link rel="stylesheet" href="style/stil_home.css">
+</head>
+<body>
+    <header>
+		<nav>
+			<img class="logo" alt="Logo" src="Assets/logo.png">
+			<div class="burger" id="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+				<div class="Optiuni_Meniu" id ="menu">
+					<a class="Buton_Meniu" href = "index.html">ACASĂ</a>
+					<a class="Buton_Meniu" href = "inscriere.html">ÎNSCRIERE</a>
+					<a class="Buton_Meniu" href = "evenimente.html">EVENIMENTE</a>
+					<a class="Buton_Meniu" href = "despre_do_it.html">DESPRE DO-IT</a>
+					<a class="Buton_Meniu" href = "contact.html">CONTACT</a>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<script>
+        const burger = document.getElementById('burger');
+const menu = document.getElementById('menu');
+
+// Toggle menu on burger click
+burger.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    burger.classList.toggle('active');
+});
+    </script>
+    <section>
+        <main>
+            <article>
+                This is the main content of the website.
+            </article>
+        </main>
+        <aside>Extra information.</aside>
+    </section>
+    <footer>Your team name</footer>
+	<scrip src="javascript/script.js"></script>
+</body>
+</html>
